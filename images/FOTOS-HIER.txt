@@ -1,0 +1,11 @@
+Zet hier je foto's (liefst .jpg, breed genoeg, bv. 2000 px) met exact deze namen:
+
+hero.jpg          grote foto bovenaan de homepage
+manueel.jpg       Manuele cupping (staand formaat)
+vuurcupping.jpg   Vuurcupping (staand formaat)
+vaste-cups.jpg    Vaste cups (staand formaat)
+moment.jpg        "Een moment voor jezelf" (staand formaat)
+petra.jpg         portretfoto van Petra (vierkant)
+
+Sfeerbeelden (optioneel, de galerij verschijnt vanzelf zodra er een foto staat):
+galerij-1.jpg  t/m  galerij-6.jpg

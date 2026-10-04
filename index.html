@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Glow Cupping Lanaken – Cupping. Pure ontspanning.</title>
+<meta name="description" content="Glow Cupping in Lanaken: manuele cupping, vuurcupping en vaste cups. Behandelingen van 60, 75 of 90 minuten door Petra Schevers. Boek je behandeling.">
+<meta name="theme-color" content="#FBF8F3">
+<meta property="og:title" content="Glow Cupping Lanaken">
+<meta property="og:description" content="Cupping. Pure ontspanning. Een moderne benadering van een eeuwenoude behandeling.">
+<meta property="og:image" content="images/hero.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Jost:wght@300;400&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Naar de inhoud</a>
+
+<!-- Het cup-logo, één keer gedefinieerd en overal hergebruikt -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="cup" viewBox="30 50 160 104">
+    <path d="M34 150c16 0 24-8 26-24 6-42 24-70 50-70s44 28 50 70c2 16 10 24 26 24" fill="none" stroke="#C99A3E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="110" cy="112" r="11" fill="#E9B85A"/>
+  </symbol>
+  <symbol id="lotus" viewBox="0 0 48 28">
+    <g stroke="#9C7020" stroke-width="1.3" stroke-linejoin="round" fill="rgba(217,174,85,.28)">
+      <path d="M24 26C12 27 5 23 1 18c9-1 17 2 23 8z"/><path d="M24 26c12 1 19-3 23-8-9-1-17 2-23 8z"/>
+      <path d="M24 26c-9-3-14-11-14-19 7 3 12 10 14 19z"/><path d="M24 26c9-3 14-11 14-19-7 3-12 10-14 19z"/>
+      <path d="M24 26c-6-7-5-17 0-24 5 7 6 17 0 24z" fill="#E9B85A"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#home" aria-label="Glow Cupping, naar boven">
+      <svg><use href="#cup"/></svg>
+      <span class="brand-name">Glow <em>Cupping</em></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu openen" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <ul class="nav-links" id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#cupping">Cupping</a></li>
+      <li><a href="#behandelingen">Behandelingen</a></li>
+      <li><a href="#over-ons">Over ons</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="nav-cta-mobile"><a class="btn btn-dark" href="#contact">Boek nu</a></li>
+    </ul>
+    <a class="btn btn-dark nav-cta-desktop" href="#contact">Boek nu</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="hero-mark" aria-hidden="true">
+        <svg viewBox="30 50 160 104">
+          <path class="cup" d="M34 150c16 0 24-8 26-24 6-42 24-70 50-70s44 28 50 70c2 16 10 24 26 24" fill="none" stroke="#C99A3E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle class="dot" cx="110" cy="112" r="9" fill="#E9B85A"/>
+        </svg>
+      </div>
+      <h1>Cupping.<br> Pure ontspanning.</h1>
+      <p class="sub">Een moderne benadering van een eeuwenoude behandeling.</p>
+      <p class="lead">Ontdek een moment van rust en aandacht voor je lichaam. Onze behandelingen combineren verschillende cuppingtechnieken en worden afgestemd op jouw persoonlijke behoeften.</p>
+      <div class="hero-actions">
+        <a class="btn btn-dark" href="#contact">Boek je behandeling <span class="arrow" aria-hidden="true">→</span></a>
+        <a class="btn btn-line" href="#behandelingen">Bekijk de prijzen</a>
+      </div>
+      <div class="hero-photo">
+        <!-- Vervang door je eigen foto: zet een bestand met de naam hero.jpg in de map images -->
+        <figure class="photo" id="heroPhoto" data-label="Foto: images/hero.jpg">
+          <img src="images/hero.jpg" alt="Een cuppingbehandeling in de rustige praktijk van Glow Cupping" onerror="this.remove()">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAT IS CUPPING + TECHNIEKEN -->
+  <section class="on-creme" id="cupping">
+    <div class="wrap">
+      <div class="intro-grid section-head reveal">
+        <h2>Wat is cupping?</h2>
+        <div class="body-text">
+          <p>Bij cupping worden cups op de huid geplaatst. Een zacht vacuüm tilt de huid en het weefsel eronder lichtjes op. Dat voelt als een stevige, trekkende druk en brengt je lichaam tot rust.</p>
+          <p>Bij Glow Cupping werken we met drie technieken, apart of gecombineerd.</p>
+        </div>
+      </div>
+
+      <div class="techniques">
+        <article class="technique reveal">
+          <figure class="photo" data-label="Foto: images/manueel.jpg">
+            <img src="images/manueel.jpg" alt="Manuele cupping: een cup wordt over de huid bewogen" loading="lazy" onerror="this.remove()">
+          </figure>
+          <h3>Manuele cupping</h3>
+          <p>Cups worden over de huid bewogen voor een gerichte behandeling.</p>
+        </article>
+        <article class="technique reveal">
+          <figure class="photo" data-label="Foto: images/vuurcupping.jpg">
+            <img src="images/vuurcupping.jpg" alt="Vuurcupping met verwarmde glazen cups" loading="lazy" onerror="this.remove()">
+          </figure>
+          <h3>Vuurcupping</h3>
+          <p>Een traditionele techniek waarbij glazen cups kort worden verwarmd en vervolgens op de huid worden geplaatst.</p>
+        </article>
+        <article class="technique reveal">
+          <figure class="photo" data-label="Foto: images/vaste-cups.jpg">
+            <img src="images/vaste-cups.jpg" alt="Vaste cups op de rug" loading="lazy" onerror="this.remove()">
+          </figure>
+          <h3>Vaste cups</h3>
+          <p>Cups worden gedurende een bepaalde tijd op specifieke lichaamszones geplaatst.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEHANDELINGEN -->
+  <section id="behandelingen">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Behandelingen</h2>
+        <p class="lead">Kies de tijd die bij je past. Elke sessie wordt afgestemd op wat jij nodig hebt.</p>
+      </div>
+      <div class="prices">
+        <article class="price-card reveal">
+          <div class="duration">60 minuten</div>
+          <div class="amount">€75</div>
+          <p>Een complete cuppingbehandeling, afgestemd op jouw behoeften.</p>
+          <a class="btn btn-line" href="#contact">Boek 60 minuten</a>
+        </article>
+        <article class="price-card reveal">
+          <div class="duration">75 minuten</div>
+          <div class="amount">€90</div>
+          <p>Een uitgebreidere sessie met extra aandacht voor specifieke lichaamszones.</p>
+          <a class="btn btn-line" href="#contact">Boek 75 minuten</a>
+        </article>
+        <article class="price-card reveal">
+          <div class="duration">90 minuten</div>
+          <div class="amount">€110</div>
+          <p>Een uitgebreide behandeling met voldoende tijd voor meerdere lichaamszones en ontspanning.</p>
+          <a class="btn btn-line" href="#contact">Boek 90 minuten</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVER DE BEHANDELING + OVER ONS -->
+  <section class="on-creme" id="over-ons">
+    <div class="wrap">
+      <div class="about">
+        <div class="reveal">
+          <h2>Een moment voor jezelf.</h2>
+          <div class="body-text" style="margin-top: 28px">
+            <p>Iedere behandeling wordt rustig en persoonlijk opgebouwd. We nemen de tijd om te kijken hoe je je voelt en waar je lichaam aandacht nodig heeft.</p>
+            <p>Waar het past, combineren we verschillende technieken: manuele cupping, vuurcupping en vaste cups. Zo wordt elke sessie echt de jouwe.</p>
+          </div>
+        </div>
+        <figure class="photo reveal" data-label="Foto: images/moment.jpg">
+          <img src="images/moment.jpg" alt="De behandelruimte van Glow Cupping in Lanaken" loading="lazy" onerror="this.remove()">
+        </figure>
+      </div>
+
+      <div class="therapist reveal">
+        <figure class="photo">
+          <img src="images/petra.jpg" alt="Petra Schevers" loading="lazy" onerror="this.remove()">
+        </figure>
+        <div>
+          <h3>Petra Schevers</h3>
+          <p>Transformational Cupping® therapeut en gespecialiseerde voetverzorgster. In haar praktijk in Lanaken krijg je haar volle aandacht, in alle rust.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SFEERBEELDEN: verschijnt pas als er foto's in de map images staan (galerij-1.jpg t/m galerij-6.jpg) -->
+  <section id="galerij" hidden>
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Sfeerbeelden</h2>
+      </div>
+      <div class="gallery" id="gallery">
+        <figure><img src="images/galerij-1.jpg" alt="Sfeerbeeld van Glow Cupping" loading="lazy"></figure>
+        <figure><img src="images/galerij-2.jpg" alt="Sfeerbeeld van Glow Cupping" loading="lazy"></figure>
+        <figure><img src="images/galerij-3.jpg" alt="Sfeerbeeld van Glow Cupping" loading="lazy"></figure>
+        <figure><img src="images/galerij-4.jpg" alt="Sfeerbeeld van Glow Cupping" loading="lazy"></figure>
+        <figure><img src="images/galerij-5.jpg" alt="Sfeerbeeld van Glow Cupping" loading="lazy"></figure>
+        <figure><img src="images/galerij-6.jpg" alt="Sfeerbeeld van Glow Cupping" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <h2>Veelgestelde vragen</h2>
+      </div>
+      <div class="faq reveal">
+        <details>
+          <summary>Doet cupping pijn?<span class="plus" aria-hidden="true"></span></summary>
+          <p>De meeste mensen ervaren cupping als een stevige, trekkende druk. De zuigkracht wordt aangepast aan wat voor jou prettig voelt. Zeg het gerust als je het anders wilt.</p>
+        </details>
+        <details>
+          <summary>Krijg ik plekken op mijn huid?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Dat kan. Na cupping kunnen er ronde, rode tot paarse afdrukken ontstaan. Die zijn normaal en verdwijnen meestal binnen enkele dagen tot een week.</p>
+        </details>
+        <details>
+          <summary>Welke behandeling past bij mij?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Twijfel je tussen 60, 75 of 90 minuten? Laat het weten bij het boeken. Samen kiezen we de sessie en technieken die bij jou passen.</p>
+        </details>
+        <details>
+          <summary>Moet ik iets melden voor de behandeling?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Ja. Meld vooraf gezondheidsklachten, huidproblemen, medicatie zoals bloedverdunners, of een zwangerschap. Dan kan de behandeling daarop worden afgestemd.</p>
+        </details>
+        <details>
+          <summary>Hoe maak ik een afspraak?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Stuur een bericht via Instagram, mail naar glowcupping7@gmail.com of bel naar +32 468 34 22 35. Je krijgt zo snel mogelijk een antwoord met een geschikt moment.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOEKEN -->
+  <section class="book" id="contact">
+    <div class="wrap">
+      <h2 class="reveal">Boek je behandeling.</h2>
+      <p class="lead reveal">Kies hoe je contact opneemt. Vermeld welke behandeling je wilt en wanneer het jou past.</p>
+      <div class="book-options">
+        <a class="book-option reveal" href="https://ig.me/m/cuppinglanaken" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg>
+          <strong>Stuur een DM</strong>
+          <span>@cuppinglanaken</span>
+        </a>
+        <a class="book-option reveal" href="mailto:glowcupping7@gmail.com?subject=Afspraak%20Glow%20Cupping">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+          <strong>Stuur een mail</strong>
+          <span>glowcupping7@gmail.com</span>
+        </a>
+        <a class="book-option reveal" href="tel:+32468342235">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>
+          <strong>Bel ons</strong>
+          <span>+32 468 34 22 35</span>
+        </a>
+      </div>
+      <p class="book-address reveal">Bodestraat 5/32, 3620 Lanaken · <a href="https://www.google.com/maps/search/?api=1&amp;query=Bodestraat%205%2F32%2C%203620%20Lanaken" target="_blank" rel="noopener">Route plannen</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="#home"><svg><use href="#cup"/></svg><span class="brand-name">Glow <em>Cupping</em></span></a>
+        <p style="margin: 14px 0 0; max-width: 30ch">Cupping in Lanaken door Petra Schevers.</p>
+        <svg class="lotus" viewBox="0 0 48 28" aria-hidden="true"><use href="#lotus"/></svg>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+32468342235">+32 468 34 22 35</a></li>
+          <li><a href="mailto:glowcupping7@gmail.com">glowcupping7@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/cuppinglanaken/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Locatie</h4>
+        <ul>
+          <li>Bodestraat 5/32</li>
+          <li>3620 Lanaken</li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Bodestraat%205%2F32%2C%203620%20Lanaken" target="_blank" rel="noopener">Route plannen</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Afspraak</h4>
+        <ul>
+          <li>60 min · €75</li>
+          <li>75 min · €90</li>
+          <li>90 min · €110</li>
+        </ul>
+        <a class="btn btn-dark" href="#contact">Boek nu</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Glow Cupping · BTW BE 0890 819 393</span>
+      <nav aria-label="Juridisch">
+        <a href="privacy.html">Privacybeleid</a>
+        <a href="voorwaarden.html">Algemene voorwaarden</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
